@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffffff;   
+    font-family: 'Poppins', sans-serif !important; 
+}
+.body-container {
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+/* NAV BAR */
+nav {
+   margin: 0;
+   padding: 0;
+   height: 50px;
+}
+#nav-flex-title {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    height: 9%;
+    background-color: #000000;
+    margin-bottom: 1em;
+}
+#nav-flex-box {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+#nav-flex-menu {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+#nav-header {
+    display: flex; 
+    align-items: center;
+    width: auto;
+    height: 100%
+
+}
+#nav-flex-options {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+
+}
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+li  {
+    font-size: 25px;
+}
+#image-1 {
+    display: block;
+    width: fit-content;
+    height: 100%;
+    max-width: 240px;
+}
+/* END OF NAV BAR */
+/* JUMBOTRON */
+.jumbotron {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image-2 {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.02);
+    max-height: 570px;
+    padding: 2em;
+
+}
+/* END OF JUMBOTRON */
+/* MAIN GRID BOX */
+#repairs-main-container {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+#repairs-title-box {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+#repairs-body-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));   
+    padding-top: 2em;
+    padding-bottom: 2em;
+    transform: scale(0.78);
+}
+.repair-devices {
+    display: grid;
+    height: auto;
+    width: auto;
+    border: solid   #0942ad;
+    border-radius: 15px 15px;
+    box-shadow: 10px 10px 15px #524a4a;
+    font-size: 30px;
+    transform: scale(0.59);
+}
+.main-titles {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    font-size: 38px;
+    color: #ffffff;
+}
+.main-images {
+    display: block;
+    height: auto;
+    width: 100%;
+    justify-self: center;
+    max-width: 500px;
+    max-height: 500px;
+    padding-top: 4em;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.main-captions {
+    display: block;
+    color: #ffffff;
+    border-right: 2em solid transparent;
+    border-left: 2em solid transparent;
+ 
+}
+.main-textbox {
+    display: flex;
+    background-color: #134197;
+    flex-direction: column;
+    border-radius: 5px 5px;
+    text-align: left;
+}
